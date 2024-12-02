@@ -1,3 +1,5 @@
+import { LucideIcon } from 'lucide-react';
+
 export interface Contact {
   id: string;
   name: string;
@@ -7,6 +9,6 @@ export interface Contact {
 export interface ShareApp {
   id: string;
   name: string;
-  icon: React.ComponentType<{ className?: string; style?: React.CSSProperties }>;
+  icon: LucideIcon;
   color: string;
 }
